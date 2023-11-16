@@ -1,6 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 195, 0);
 }
 
 .flex{
@@ -10,7 +9,7 @@ body{
 
 nav{
     margin-block: 18%;
-    height: 20vh;
+    height: 25vh;
     background-color: #FEF7E2;
     border-radius: 100px;
     align-items: center;
@@ -19,29 +18,33 @@ nav{
     flex-wrap: wrap;
 }
 
-nav img{
+nav .align img{
     width: 70px;
     object-fit: cover;
     margin-left: 0;
 }
 
+.flex .align span{
+    display: inline-block;
+    margin-inline: 80px;
+}
+
 .flex .align{
+    justify-content:flex-start;
     flex: 2;
-    height: 50%;
-    justify-content: space-around;
-    padding-inline: 5px 20px;
-    border-radius: 50px;
-    font-size: 25px;
+    height: 45%;
+    border-radius: 80px;
+    font-size: 40px;
 
 }
 
 .button{
     flex: 1;
-    height: 30%;
+    height: 25%;
     justify-content: center;
     align-items: center;
     background-color: #FCDF7E;
     padding: 10px 30px;
-    border-radius: 30px;
+    border-radius: 50px;
 
 }
