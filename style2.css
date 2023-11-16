@@ -13,9 +13,8 @@ nav{
     background-color: #FEF7E2;
     border-radius: 100px;
     align-items: center;
-    gap: 20px;
-    padding-inline: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    padding-inline: 30px;
 }
 
 nav .align img{
@@ -32,7 +31,7 @@ nav .align img{
 .flex .align{
     justify-content:flex-start;
     flex: 2;
-    height: 45%;
+    height: 50%;
     border-radius: 80px;
     font-size: 40px;
 
