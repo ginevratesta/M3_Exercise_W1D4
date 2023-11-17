@@ -4,37 +4,37 @@ body{
     margin: 0;
 }
 
+main{
+padding-inline: 40px;
+padding-bottom: 40px;
+}
+
 .flex{
     display: flex;
 }
 
 
 nav{
-    height: 25vh;
+    height: 20vh;
     background-color: #FEF7E2;
-    border-radius: 100px;
     align-items: center;
-    gap: 30px;
+    gap: 2.5%;
     padding-inline: 30px;
 }
 
 nav .align img{
-    width: 70px;
+    width: 20%;
     object-fit: cover;
-    margin-left: 0;
 }
 
-.flex .align span{
-    display: inline-block;
-    margin-inline: 80px;
+.flex .align h2{
 }
 
 .flex .align{
     justify-content:flex-start;
     flex: 2;
-    height: 50%;
+    height: 45%;
     border-radius: 80px;
-    font-size: 40px;
 
 }
 
@@ -50,7 +50,7 @@ nav .align img{
 }
 
 .honey-article{
-    padding: 10px 40px;
+    padding-block: 10px;
 }
 
 .honey-article h2{
@@ -64,8 +64,10 @@ nav .align img{
 }
 
 .card {
-    flex: 1  20%;
-    height: 70vh;
+    flex: 20%;
+    min-width:20%;
+    box-sizing: border-box;
+    height: 65vh;
     border-radius: 100px;
     overflow: hidden;
     background-color: #fef7e2;
@@ -100,4 +102,24 @@ nav .align img{
     margin-block: 0 20px;
     border-radius: 20px;
   }
+
+  .container {
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #fbf7e3;
+}
+
+.container img {
+    flex: 1 1 40%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.article {
+    flex: 1 1 30%;
+    color: #78452b;
+}
   
