@@ -7,8 +7,8 @@ body {
   }
   
   .container {
-    flex: 1 1 100%;
     flex-wrap: wrap-reverse;
+    gap: 40px;
     border-radius: 40px;
     padding: 30px;
     background-color: #FBF7E3;
@@ -23,6 +23,6 @@ body {
   
   .article {
     flex: 1 1 40%;
-    padding-inline: 30px;
+    max-width: 100%;
   }
   
