@@ -59,16 +59,17 @@ nav .align img{
 
 .card-container{
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding-block: 5px;
     gap: 40px;
 }
 
 .card {
-    flex: 20%;
-    min-width:20%;
+    width: 300px;
+    height: auto;
     box-sizing: border-box;
-    height: 65vh;
-    border-radius: 100px;
+    border-radius: 50px;
     overflow: hidden;
     background-color: #fef7e2;
   }
