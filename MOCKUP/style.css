@@ -14,7 +14,7 @@ main {
 }
 
 nav {
-  height: 20vh;
+  height: 18vh;
   gap: 10px;
   align-items: center;
   padding-inline: 30px;
@@ -24,27 +24,26 @@ nav {
 nav .align img {
   width: 40px;
   object-fit: cover;
+  margin-right: 10%;
 }
 
 .nav-button {
-  height: 25%;
-  flex: 1;
+  height: 20%;
+  flex: 2;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
-  border-radius: 50px;
+  padding: 10px 10px;
+  border-radius: 100px;
   background-color: #fcdf7e;
   font-weight: bold;
   font-size: 12px;
 }
 
 .flex.align {
-  height: 45%;
+  height: 50%;
   flex: 2;
-  gap: 25%;
-  justify-content: flex-start;
-  padding-inline: 20px;
-  border-radius: 80px;
+  border-radius: 100px;
+  padding-inline: 3%;
   font-size: 18px;
 }
 
