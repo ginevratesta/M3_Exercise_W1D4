@@ -28,11 +28,10 @@ nav .align img {
 }
 
 .nav-button {
-  height: 20%;
   flex: 2;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 18px 10px;
   border-radius: 100px;
   background-color: #fcdf7e;
   font-weight: bold;
@@ -40,10 +39,9 @@ nav .align img {
 }
 
 .flex.align {
-  height: 50%;
   flex: 2;
   border-radius: 100px;
-  padding-inline: 3%;
+  padding: 8px 3%;
   font-size: 18px;
 }
 
@@ -64,7 +62,7 @@ nav .align img {
 }
 
 .card {
-  width: 310px;
+  flex: 1 1 310px;
   height: auto;
   border-radius: 50px;
   overflow: hidden;
