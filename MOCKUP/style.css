@@ -28,25 +28,27 @@ nav .align img {
 }
 
 .nav-button {
-  flex: 2;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
-  padding: 18px 10px;
+  padding: 12px 5px;
   border-radius: 100px;
   background-color: #fcdf7e;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 15px;
+  box-sizing: border-box;
 }
 
 .flex.align {
-  flex: 2;
+  flex: 1 1 auto;
   border-radius: 100px;
-  padding: 8px 3%;
+  padding: 8px 15px;
   font-size: 18px;
 }
 
 .honey-article {
   padding-block: 10px;
+  box-sizing: border-box;
 }
 
 .honey-article h2 {
@@ -62,7 +64,7 @@ nav .align img {
 }
 
 .card {
-  flex: 1 1 310px;
+  flex: 0 1 310px;
   height: auto;
   border-radius: 50px;
   overflow: hidden;
