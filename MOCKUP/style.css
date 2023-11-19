@@ -13,6 +13,12 @@ main {
   display: flex;
 }
 
+nav,
+.honey-article,
+.container {
+  box-sizing: border-box;
+}
+
 nav {
   height: 18vh;
   gap: 10px;
@@ -31,24 +37,22 @@ nav .align img {
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;
-  padding: 12px 5px;
+  padding: 12px 8px;
   border-radius: 100px;
   background-color: #fcdf7e;
   font-weight: bold;
   font-size: 15px;
-  box-sizing: border-box;
 }
 
 .flex.align {
   flex: 1 1 auto;
   border-radius: 100px;
-  padding: 8px 15px;
+  padding: 8px 10px;
   font-size: 18px;
 }
 
 .honey-article {
   padding-block: 10px;
-  box-sizing: border-box;
 }
 
 .honey-article h2 {
